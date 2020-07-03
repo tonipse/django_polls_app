@@ -2,6 +2,8 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .hero {
@@ -11,6 +13,11 @@
 
 .hero .container {
   margin-top: 100px;
+}
+
+.hero .container p {
+  text-align: center;
+  margin-top: 10px;
 }
 
 .hero .container h1 {
@@ -41,7 +48,36 @@
   transition: all 0.2s;
 }
 
-.hero .container p {
-  color: #552d2d;
+.hero .container form {
+  text-align: center;
+}
+
+.hero .container form input {
+  margin-top: 20px;
+}
+
+.hero .container form #submit {
+  background-color: #52ddca;
+  color: white;
+  font-size: 20pt;
+  padding: 10px;
+  border: none;
+}
+
+.hero .container .link {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+.hero .container .link a {
+  color: #52ddca;
+  font-weight: 600;
+  font-size: 13pt;
 }
 /*# sourceMappingURL=style.css.map */
